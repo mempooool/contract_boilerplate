@@ -1,6 +1,22 @@
 node_modules
-.env
 
 #Hardhat files
 cache
 artifacts
+
+#Typechain
+types
+
+#test
+coverage
+coverage.json
+
+#credentials
+.env
+data
+
+#log
+yarn-error.log
+
+#flatten
+flatten

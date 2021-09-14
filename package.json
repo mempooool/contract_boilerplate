@@ -1,13 +1,25 @@
 {
   "name": "contract_boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "Contract Dev boilerplate",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "npx hardhat compile",
+    "clean": "npx hardhat clean",
+    "test": "npx hardhat test"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mempooool/contract_boilerplate.git"
+  },
+  "author": {
+    "name": "mempooool",
+    "email": "mempooool@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mempooool/contract_boilerplate/issues"
+  },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.2",
     "@nomiclabs/hardhat-etherscan": "^2.1.6",
